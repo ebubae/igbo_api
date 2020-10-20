@@ -9,7 +9,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "yarn develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "precommit": "lint-staged",
     "cypress:open": "cypress open",
